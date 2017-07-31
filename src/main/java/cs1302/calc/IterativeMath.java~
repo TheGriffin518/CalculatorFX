@@ -1,0 +1,129 @@
+package cs1302.calc;
+
+/* Implement the Math interface using iteration here. For each method, replace
+ * the throw statement with your implementation.
+ */
+
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+/**
+ * The methods in this class achieve the results through means of iteration. They 
+ * use a while loop in order to calculate the operation.
+ *
+ * @author James Griffin
+ * @author Jacob Hilmandolar
+ */
+public class IterativeMath implements Math {
+    
+    Alert alert = new Alert(AlertType.INFORMATION);
+
+    /** Increments the value passed to it by one. 
+     * @param int n, is the number being passed to it to have its value increased by one
+     * @return int, the resulting value after being incremented by one
+     */
+    public int inc(int n) {
+	return n + 1;
+    } // inc
+
+    /** Decrements the value passed to it by one
+     *@param int n, is the number that is to have its value decreased by one
+     *@return int, the resulting value after being decremented by one
+     */
+    public int dec(int n) {
+	return n - 1;
+    } // dec
+
+    /** Adds the two parameters together using a while loop
+     *@param int lhs, the left most integer of the expression
+     *@param int rhs, the right most integer of the expression
+     *@return int, teh sum of the two arguments being passed to it
+     */
+    public int add(int lhs, int rhs) {
+	int sum = lhs;
+	while(rhs > 0) {
+	    sum = inc(sum);
+	    rhs = dec(rhs);
+	}//while
+	return sum;
+    } // add
+
+    /** Subtracts the second parameter from the first parameter
+     *@param int lhs, the left most integer of the expression
+     *@param int rhs, the right most integer of the expression
+     *@return int, the difference of the two arguments being passed to it
+     */
+    public int sub(int lhs, int rhs) {
+	int diff = lhs;
+	while(rhs > 0) {
+	    diff = dec(diff);
+	    rhs = dec(rhs);
+	}//while
+	return diff;
+    } // sub
+
+    /** Multiplies the two arguments together and returns the product
+     *@param int lhs, the left most integer of the expression
+     *@param int rhs, the right most integer of the expression
+     *@return int, the product of the two arguments being passed to it
+     */
+    public int mul(int lhs, int rhs) {
+	if(rhs == 0 || lhs == 0) return 0;
+	int prod = lhs; 
+	while(rhs > 1){
+	    prod = add(lhs, prod);
+	    rhs = dec(rhs);
+	}//while
+	return prod;
+    } // mul
+
+    /** Divides the first parameter by the second parameter and returns the quotient
+     *@param int lhs, the left most integer of the expression
+     *@param int rhs, the right most integer of the expression
+     *@return int, the quotient of dividing the arguments
+     */
+    public int div(int lhs, int rhs) {
+	int diff = 0;
+	//Throws up an alert dialog pane to alert the user that they can't divide by zero
+	if(rhs == 0) {
+	    alert.setContentText("Can't divide by zero!");
+	    alert.showAndWait();
+	    throw new ArithmeticException("Can't divide by zero!");
+	}//if
+	if(lhs == 0) return diff;
+	while( lhs >= rhs) {
+	    diff = inc(diff);
+	    lhs = sub(lhs, rhs);
+	}//while
+	return diff;
+    } // div
+
+    /** Calculates the factorio of the number passed to it and returns the answer
+     *@param int n, the number which the factorio is to be calculated for
+     *@return int, the resulting answer for the fatorial of the number
+     */
+    public int fac(int n) {
+	int fac = n;
+	if(fac == 0) return 1;
+	while (n > 1) {
+	    n = dec(n);
+	    fac = mul(fac, n);
+	}//while
+	return fac;
+    } // fac
+
+    /** Calculates the answer for raising one number to the power of another number
+     *@param int lhs, the number to serve as the base
+     *@param int rhs, the number to serve as the power
+     *@return int, the answer of the base raised to some exponent
+     */
+    public int pow(int lhs, int rhs) {
+	int power = lhs;
+	if(rhs == 0) return 1;
+	while(rhs > 1) {
+	    rhs = dec(rhs);
+	    power = mul(power, lhs);
+	}//while
+	return power;
+    } // pow
+
+} // IterativeMath

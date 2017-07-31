@@ -1,0 +1,585 @@
+Griffin-Hilmandolar-p4/:
+total 1248
+-rw-r--r--. 1 ugrad     383 Apr 22 20:24 build.sbt
+-rw-r--r--. 1 ugrad    1275 Apr 22 20:48 MOCKUP.md
+drwxr-xr-x. 3 ugrad    4096 Apr 22 20:24 project
+-rw-r--r--. 1 ugrad   16389 Apr 22 20:25 README.md
+-rw-r--r--. 1 ugrad   16053 Apr 22 20:25 README.md~
+-rw-r--r--. 1 ugrad       0 Apr 23 12:24 rec27955
+-rwxr-xr-x. 1 ugrad      51 Apr 22 20:25 sbt
+-rw-r--r--. 1 ugrad     118 Apr 22 20:25 sbt.bat
+-rwxr-xr-x. 1 ugrad 1210221 Apr 22 20:25 sbt-launch.jar
+drwxr-xr-x. 4 ugrad    4096 Apr 22 20:25 src
+drwxr-xr-x. 5 ugrad    4096 Apr 22 20:33 target
+
+Griffin-Hilmandolar-p4/project:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:24 target
+
+Griffin-Hilmandolar-p4/project/target:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:28 config-classes
+
+Griffin-Hilmandolar-p4/project/target/config-classes:
+total 120
+-rw-r--r--. 1 ugrad  934 Apr 22 20:28 $007457ed3292cddc2b40$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $007457ed3292cddc2b40.cache
+-rw-r--r--. 1 ugrad  392 Apr 22 20:28 $007457ed3292cddc2b40.class
+-rw-r--r--. 1 ugrad 1478 Apr 22 20:28 $007457ed3292cddc2b40$.class
+-rw-r--r--. 1 ugrad  934 Apr 22 20:28 $06f35666aaca6f36d2ff$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $06f35666aaca6f36d2ff.cache
+-rw-r--r--. 1 ugrad  392 Apr 22 20:28 $06f35666aaca6f36d2ff.class
+-rw-r--r--. 1 ugrad 1314 Apr 22 20:28 $06f35666aaca6f36d2ff$.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $32866ff5e3f92a1e809b.cache
+-rw-r--r--. 1 ugrad  315 Apr 22 20:28 $32866ff5e3f92a1e809b.class
+-rw-r--r--. 1 ugrad 2197 Apr 22 20:28 $32866ff5e3f92a1e809b$.class
+-rw-r--r--. 1 ugrad  893 Apr 22 20:28 $6b1165d77d4584acd64f$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $6b1165d77d4584acd64f.cache
+-rw-r--r--. 1 ugrad  714 Apr 22 20:28 $6b1165d77d4584acd64f.class
+-rw-r--r--. 1 ugrad 1302 Apr 22 20:28 $6b1165d77d4584acd64f$.class
+-rw-r--r--. 1 ugrad 1367 Apr 22 20:28 $8375921c83224c1f6152$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $8375921c83224c1f6152.cache
+-rw-r--r--. 1 ugrad  392 Apr 22 20:28 $8375921c83224c1f6152.class
+-rw-r--r--. 1 ugrad 1535 Apr 22 20:28 $8375921c83224c1f6152$.class
+-rw-r--r--. 1 ugrad  879 Apr 22 20:28 $bb16d1b61521c397d36a$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $bb16d1b61521c397d36a.cache
+-rw-r--r--. 1 ugrad  392 Apr 22 20:28 $bb16d1b61521c397d36a.class
+-rw-r--r--. 1 ugrad 1305 Apr 22 20:28 $bb16d1b61521c397d36a$.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $c57325363b08596d8b2e.cache
+-rw-r--r--. 1 ugrad  315 Apr 22 20:28 $c57325363b08596d8b2e.class
+-rw-r--r--. 1 ugrad 2194 Apr 22 20:28 $c57325363b08596d8b2e$.class
+-rw-r--r--. 1 ugrad 1378 Apr 22 20:28 $ef3c6a11d661d8f0527c$$anonfun$$sbtdef$1.class
+-rw-r--r--. 1 ugrad   22 Apr 22 20:28 $ef3c6a11d661d8f0527c.cache
+-rw-r--r--. 1 ugrad  392 Apr 22 20:28 $ef3c6a11d661d8f0527c.class
+-rw-r--r--. 1 ugrad 1509 Apr 22 20:28 $ef3c6a11d661d8f0527c$.class
+
+Griffin-Hilmandolar-p4/src:
+total 8
+drwxr-xr-x. 4 ugrad 4096 Apr 22 20:25 main
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:25 test
+
+Griffin-Hilmandolar-p4/src/main:
+total 8
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:25 java
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:25 resources
+
+Griffin-Hilmandolar-p4/src/main/java:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:25 cs1302
+
+Griffin-Hilmandolar-p4/src/main/java/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:25 calc
+
+Griffin-Hilmandolar-p4/src/main/java/cs1302/calc:
+total 116
+-rw-r--r--. 1 ugrad  511 Apr 22 20:25 AnswerPanel.java
+-rw-r--r--. 1 ugrad  299 Apr 22 20:25 AnswerPanel.java~
+-rw-r--r--. 1 ugrad 2617 Apr 22 20:25 BasicMath.java
+-rw-r--r--. 1 ugrad 1119 Apr 22 20:25 BasicMath.java~
+-rw-r--r--. 1 ugrad   80 Apr 22 20:25 #Binary.java#
+-rw-r--r--. 1 ugrad 7956 Apr 22 20:25 BinaryPanel.java
+-rw-r--r--. 1 ugrad 7501 Apr 22 20:25 BinaryPanel.java~
+-rw-r--r--. 1 ugrad 8782 Apr 22 20:25 Calculator.java
+-rw-r--r--. 1 ugrad 8782 Apr 22 20:25 Calculator.java~
+-rw-r--r--. 1 ugrad    1 Apr 22 20:25 #Cl#
+-rw-r--r--. 1 ugrad  514 Apr 22 20:25 Driver.java
+-rw-r--r--. 1 ugrad  565 Apr 22 20:25 Driver.java~
+-rw-r--r--. 1 ugrad  609 Apr 22 20:25 ExpressionPanel.java
+-rw-r--r--. 1 ugrad  333 Apr 22 20:25 ExpressionPanel.java~
+-rw-r--r--. 1 ugrad 1966 Apr 22 20:25 IterativeMath.java
+-rw-r--r--. 1 ugrad 3972 Apr 22 20:25 IterativeMath.java~
+-rw-r--r--. 1 ugrad  459 Apr 22 20:25 MalformedPostfixException.java
+-rw-r--r--. 1 ugrad 5500 Apr 22 20:25 Math.java
+-rw-r--r--. 1 ugrad 1681 Apr 22 20:25 RecursiveMath.java
+-rw-r--r--. 1 ugrad 3544 Apr 22 20:25 RecursiveMath.java~
+-rw-r--r--. 1 ugrad 7506 Apr 22 20:25 ReversePolishNotation.java
+
+Griffin-Hilmandolar-p4/src/main/resources:
+total 8
+-rw-r--r--. 1 ugrad 136 Apr 22 20:25 calc.css
+-rw-r--r--. 1 ugrad 536 Apr 22 20:25 calc.fxml
+
+Griffin-Hilmandolar-p4/src/test:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:25 java
+
+Griffin-Hilmandolar-p4/src/test/java:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:25 cs1302
+
+Griffin-Hilmandolar-p4/src/test/java/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:25 calc
+
+Griffin-Hilmandolar-p4/src/test/java/cs1302/calc:
+total 32
+-rw-r--r--. 1 ugrad 10595 Apr 22 20:25 BasicMathTest.java
+-rw-r--r--. 1 ugrad   373 Apr 22 20:25 DriverTest.java
+-rw-r--r--. 1 ugrad   279 Apr 22 20:25 IterativeMathTest.java
+-rw-r--r--. 1 ugrad   198 Apr 22 20:25 IterativeMathTest.java~
+-rw-r--r--. 1 ugrad   198 Apr 22 20:25 RecursiveMathTest.java
+-rw-r--r--. 1 ugrad  2391 Apr 22 20:25 ReversePolishNotationTest.java
+
+Griffin-Hilmandolar-p4/target:
+total 12
+drwxr-xr-x. 4 ugrad 4096 Apr 22 20:33 resolution-cache
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 scala-2.10
+drwxr-xr-x. 5 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/resolution-cache:
+total 8
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 cs1302-calculator
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 reports
+
+Griffin-Hilmandolar-p4/target/resolution-cache/cs1302-calculator:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 cs1302-calculator_2.10
+
+Griffin-Hilmandolar-p4/target/resolution-cache/cs1302-calculator/cs1302-calculator_2.10:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 1.1
+
+Griffin-Hilmandolar-p4/target/resolution-cache/cs1302-calculator/cs1302-calculator_2.10/1.1:
+total 8
+-rw-r--r--. 1 ugrad  645 Apr 22 20:33 resolved.xml.properties
+-rw-r--r--. 1 ugrad 2052 Apr 22 20:33 resolved.xml.xml
+
+Griffin-Hilmandolar-p4/target/resolution-cache/reports:
+total 96
+-rw-r--r--. 1 ugrad   459 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-compile-internal.xml
+-rw-r--r--. 1 ugrad   450 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-compile.xml
+-rw-r--r--. 1 ugrad   447 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-docs.xml
+-rw-r--r--. 1 ugrad   451 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-optional.xml
+-rw-r--r--. 1 ugrad   449 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-plugin.xml
+-rw-r--r--. 1 ugrad   446 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-pom.xml
+-rw-r--r--. 1 ugrad   451 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-provided.xml
+-rw-r--r--. 1 ugrad   459 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-runtime-internal.xml
+-rw-r--r--. 1 ugrad   450 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-runtime.xml
+-rw-r--r--. 1 ugrad  7606 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-scala-tool.xml
+-rw-r--r--. 1 ugrad   450 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-sources.xml
+-rw-r--r--. 1 ugrad  5648 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-test-internal.xml
+-rw-r--r--. 1 ugrad  5604 Apr 22 20:33 cs1302-calculator-cs1302-calculator_2.10-test.xml
+-rw-r--r--. 1 ugrad  4371 Apr 22 20:33 ivy-report.css
+-rw-r--r--. 1 ugrad 20993 Apr 22 20:33 ivy-report.xsl
+
+Griffin-Hilmandolar-p4/target/scala-2.10:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 classes
+
+Griffin-Hilmandolar-p4/target/scala-2.10/classes:
+total 12
+-rw-r--r--. 1 ugrad  136 Apr 22 20:25 calc.css
+-rw-r--r--. 1 ugrad  536 Apr 22 20:25 calc.fxml
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 cs1302
+
+Griffin-Hilmandolar-p4/target/scala-2.10/classes/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 calc
+
+Griffin-Hilmandolar-p4/target/scala-2.10/classes/cs1302/calc:
+total 60
+-rw-r--r--. 1 ugrad  621 Apr 22 20:33 AnswerPanel.class
+-rw-r--r--. 1 ugrad  715 Apr 22 20:33 BasicMath.class
+-rw-r--r--. 1 ugrad 9468 Apr 22 20:33 BinaryPanel.class
+-rw-r--r--. 1 ugrad 9482 Apr 22 20:33 Calculator.class
+-rw-r--r--. 1 ugrad  675 Apr 22 20:33 Driver.class
+-rw-r--r--. 1 ugrad  696 Apr 22 20:33 ExpressionPanel.class
+-rw-r--r--. 1 ugrad 1574 Apr 22 20:33 IterativeMath.class
+-rw-r--r--. 1 ugrad  539 Apr 22 20:33 MalformedPostfixException.class
+-rw-r--r--. 1 ugrad  798 Apr 22 20:33 Math.class
+-rw-r--r--. 1 ugrad 1468 Apr 22 20:33 RecursiveMath.class
+-rw-r--r--. 1 ugrad 3176 Apr 22 20:33 ReversePolishNotation.class
+
+Griffin-Hilmandolar-p4/target/streams:
+total 12
+drwxr-xr-x. 15 ugrad 4096 Apr 22 20:33 compile
+drwxr-xr-x.  9 ugrad 4096 Apr 22 20:33 $global
+drwxr-xr-x. 10 ugrad 4096 Apr 22 20:33 runtime
+
+Griffin-Hilmandolar-p4/target/streams/compile:
+total 52
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 compile
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 compileIncremental
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 copyResources
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 dependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 exportedProducts
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 externalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 incCompileSetup
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 internalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 mainClass
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 managedClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 run
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 unmanagedClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 unmanagedJars
+
+Griffin-Hilmandolar-p4/target/streams/compile/compile:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/compile/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/compile/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/compile/compileIncremental:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/compileIncremental/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/compileIncremental/$global/streams:
+total 52
+-rw-r--r--. 1 ugrad     0 Apr 22 20:33 export
+-rw-r--r--. 1 ugrad 50952 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/compile/copyResources:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/copyResources/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/copyResources/$global/streams:
+total 8
+-rw-r--r--. 1 ugrad 163 Apr 22 20:33 copy-resources
+-rw-r--r--. 1 ugrad 367 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/compile/dependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/dependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/dependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/compile/exportedProducts:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/exportedProducts/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/exportedProducts/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 57 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/compile/externalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/externalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/externalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/compile/incCompileSetup:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/incCompileSetup/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/incCompileSetup/$global/streams:
+total 136
+-rw-r--r--. 1 ugrad 136475 Apr 22 20:33 inc_compile_2.10
+
+Griffin-Hilmandolar-p4/target/streams/compile/internalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/internalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/internalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/compile/mainClass:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/mainClass/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/mainClass/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/compile/managedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/managedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/managedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/compile/run:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/run/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/run/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 286 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/compile/unmanagedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/unmanagedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/unmanagedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/compile/unmanagedJars:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/compile/unmanagedJars/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/compile/unmanagedJars/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/$global:
+total 28
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 clean
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 dependencyPositions
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 ivyConfiguration
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 ivySbt
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 projectDescriptors
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 update
+
+Griffin-Hilmandolar-p4/target/streams/$global/clean:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/clean/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:32 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/clean/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Apr 22 20:32 out
+
+Griffin-Hilmandolar-p4/target/streams/$global/dependencyPositions:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/dependencyPositions/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/dependencyPositions/$global/streams:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 update_cache_2.10
+
+Griffin-Hilmandolar-p4/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10:
+total 8
+-rw-r--r--. 1 ugrad  75 Apr 22 20:33 input_dsp
+-rw-r--r--. 1 ugrad 134 Apr 22 20:33 output_dsp
+
+Griffin-Hilmandolar-p4/target/streams/$global/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/$global/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/$global/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/$global/ivyConfiguration:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/ivyConfiguration/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:32 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/ivyConfiguration/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 172 Apr 22 20:33 out
+
+Griffin-Hilmandolar-p4/target/streams/$global/ivySbt:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/ivySbt/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:32 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/ivySbt/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Apr 22 20:32 out
+
+Griffin-Hilmandolar-p4/target/streams/$global/projectDescriptors:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:32 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/projectDescriptors/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:32 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/projectDescriptors/$global/streams:
+total 0
+-rw-r--r--. 1 ugrad 0 Apr 22 20:32 out
+
+Griffin-Hilmandolar-p4/target/streams/$global/update:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/$global/update/$global:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/$global/update/$global/streams:
+total 28
+-rw-r--r--. 1 ugrad 22632 Apr 22 20:33 out
+drwxr-xr-x. 2 ugrad  4096 Apr 22 20:33 update_cache_2.10
+
+Griffin-Hilmandolar-p4/target/streams/$global/update/$global/streams/update_cache_2.10:
+total 20
+-rw-r--r--. 1 ugrad  1505 Apr 22 20:33 inputs
+-rw-r--r--. 1 ugrad 15709 Apr 22 20:33 output
+
+Griffin-Hilmandolar-p4/target/streams/runtime:
+total 32
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 dependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 exportedProducts
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 externalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 fullClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 internalDependencyClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 managedClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 unmanagedClasspath
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 unmanagedJars
+
+Griffin-Hilmandolar-p4/target/streams/runtime/dependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/dependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/dependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 57 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/exportedProducts:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/exportedProducts/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/exportedProducts/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 57 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/externalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/externalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/externalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/fullClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/fullClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/fullClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 57 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/internalDependencyClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/internalDependencyClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/internalDependencyClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 57 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/managedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/managedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/managedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/unmanagedClasspath:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/unmanagedClasspath/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/unmanagedClasspath/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+
+Griffin-Hilmandolar-p4/target/streams/runtime/unmanagedJars:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Apr 22 20:33 $global
+
+Griffin-Hilmandolar-p4/target/streams/runtime/unmanagedJars/$global:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr 22 20:33 streams
+
+Griffin-Hilmandolar-p4/target/streams/runtime/unmanagedJars/$global/streams:
+total 4
+-rw-r--r--. 1 ugrad 1 Apr 22 20:33 export
+/home/ugrads/jgriffin/Griffin-Hilmandolar-p4/:/home/work/cs1302b

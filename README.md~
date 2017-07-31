@@ -1,13 +1,7 @@
 # Project Submission
 
- James Griffin
-
-
-When using recursion for calculating powers and other operations in which
-the answer is a large number, there is a delay. The calculator has yet to crash
-when doing some of these calculations, but it does take a long time. If it appears
-to have crashed while in recursive mode, just give it some time to see if it really
-has crashed. 
+Team Member A: James Griffin (037)
+Team Member B: Jacob Hilmandolar (913)
 
 # CSCI 1302 - Calculator Project (cs1302-calculator)
 

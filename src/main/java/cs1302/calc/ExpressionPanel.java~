@@ -1,0 +1,16 @@
+package cs1302.calc;
+
+import javafx.scene.layout.VBox;
+
+public class ExpressionPanel extends VBox {
+
+    public Calculator calc; 
+
+    public ExpressionPanel(Calculator calc) {
+	super();
+	this.calc = calc;
+	setPrefSize(300,50);
+	getChildren().addAll(calc.expressionLabel, calc.answerLabel);
+    }//constructor
+    
+}//ExpressionPanel

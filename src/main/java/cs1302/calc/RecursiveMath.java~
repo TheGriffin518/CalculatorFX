@@ -1,0 +1,103 @@
+package cs1302.calc;
+
+/* Implement the Math interface using recursion here. For each method, replace
+ * the throw statement with your implementation.
+ */
+
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+/**
+ * The methods calculate the answer for each of the following operations using recursion. 
+ * The type of recursion is ordinary tail recursion, due to keeping the method 
+ * signatures the same.
+ *
+ * @author James Griffin
+ * @author Jacob Hilmandolar
+ */
+public class RecursiveMath implements Math {
+
+    Alert alert = new Alert(AlertType.INFORMATION);
+
+    /** Increments the value of the number passed to it by one
+     *@param int n, the number to be incremented
+     *@return int, the result of the argument being incremented
+     */
+    public int inc(int n) {
+	return n + 1;
+    } // inc
+
+    /** Decrements the value of the number passed to it by one
+     *@param int n, the number to be decremeneted
+     *@return int, the result of the argument being decremented
+     */
+    public int dec(int n) {
+	return n - 1;
+    } // dec
+
+    /** Adds the two arguments together recursively
+     *@param int lhs, the left side of the expression
+     *@param int rhs, the right most integer of the expression
+     *@return return int, the sum of the two arguments being added together
+     */
+    public int add(int lhs, int rhs) {
+	if(rhs == 0) return lhs;
+	return add(inc(lhs), dec(rhs));
+    } // add
+
+    /** Subtracts the right integer from the left integer recursively
+     *@param int lhs, the left integer of the expression
+     *@param int rhs, the right integer of the expression
+     *@return return int, the difference of the two arguments
+     */
+    public int sub(int lhs, int rhs) {
+	if (rhs == 0) return lhs;
+	return sub(dec(lhs), dec(rhs));
+    } // sub
+
+    /** Multiplies the two arguments together recursively and returns the product
+     *@param int lhs, the left integer of the expression
+     *@param int rhs, the right integer of the expression
+     *@return return int, the product of the two arguments
+     */
+    public int mul(int lhs, int rhs) {
+	if (rhs == 0 || lhs == 0) return 0;
+	if (rhs == 1) return lhs;
+	return add(lhs, mul(lhs, dec(rhs)));
+    } // mul
+
+    /** Divides the left integer by the right integer recursively and returns the quotient
+     *@param int lhs, the left integer of the expression
+     *@param int rhs, the right integer of the expression. The divisor 
+     *@return int, the quotient of the two numbers
+     */
+    public int div(int lhs, int rhs) {
+	if(rhs == 0){
+	    alert.setContentText("Can't divide by zero!");
+	    alert.showAndWait();
+	    throw new ArithmeticException();
+	}//if
+	if(lhs < rhs) return 0;
+	if(lhs == rhs) return 1;
+	return inc(div(sub(lhs, rhs), rhs));
+    } // div
+
+    /** Calculates the factorial of the argument recursively and returns the answer
+     *@param int n, the number in which to calculate the factorial for
+     *@return int, the answer of the factorial for the argument
+     */
+    public int fac(int n) {
+	if(n > 0) return mul(n, fac(dec(n)));
+	return 1;
+    } // fac
+
+    /** Calculates what the base raised to an exponent is recursively and returns the answer
+     *@param int lhs, the base number
+     *@param int rhs, the exponent or the number of times to multiply the base by itself
+     *@return int, the answer to calculating a number raised to an exponent
+     */
+    public int pow(int lhs, int rhs) {
+	if(rhs == 0) return 1;
+	return mul(lhs, pow(lhs,dec(rhs)));
+    } // pow
+
+} // RecursiveMath

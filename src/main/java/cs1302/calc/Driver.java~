@@ -18,6 +18,8 @@ public class Driver extends Application {
 	Calculator calc = new Calculator();
 	Scene scene = new Scene(calc);
 
+	scene.getStylesheets().add("/CustomStyle.css");
+	
         primaryStage.setTitle("CalcFX!");
 	primaryStage.setScene(scene);
         primaryStage.show();

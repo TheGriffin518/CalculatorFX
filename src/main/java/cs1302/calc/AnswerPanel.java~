@@ -1,0 +1,17 @@
+package cs1302.calc;
+
+import javafx.scene.text.TextFlow;
+
+public class AnswerPanel extends TextFlow {
+
+    public Calculator calc;
+
+    public AnswerPanel(Calculator calc) {
+	super();
+	this.calc = calc;
+	setPrefSize(300,50);
+	getChildren().add(calc.answerLabel);
+    }//constructor
+
+
+}//AnswerPanel

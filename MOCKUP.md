@@ -21,22 +21,12 @@ or Vi.
 
 You can include your image, as follows:
 
-![GUI Mockup 1](http://i.imgur.com/X5SZDg0.png)
+![GUI Mockup 1](https://thegriffin518.imgur.com/all/)
 
-You can type a description of the mockup here. Include any information about
-additional features you have mocked up in your interface.
+This shows our mockup of how we want our calculator to look. We want it to look very similiar to the example given
+so the grader know how to use our calculator. 
 
-## GUI with Bit Toggle
 
-Here is another image...
-
-![GUI Mockup 2](http://i.imgur.com/nf6LRol.png)
-
-This mockup includes the binary bit toggle. I designed this way because...
-
-## Additional Interface Elements
-
-You can include additional sections to this document as needed.
 
 
 
